@@ -1,0 +1,27 @@
+// SIUNCIUDADADOPUEDEVOTAR.cpp : Defines the entry point for the console application.
+//CHRISTIAN RIOS LICHTENSTEIN SI SE PUEDEN RETIRAR O NO//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{     
+	int edad,catidadhijos,genero;
+
+         cout<< "digame su edad";
+		 cin>>edad;
+		 cout<< "su cantidad de hijos";
+		 cin>>catidadhijos;
+		 cout<< "pongame 1 para mujer y 2 para hombre";
+		 cin>>genero;
+		 if((edad>=65)&&(genero==1))
+		 cout<< "usted ya debe retirarse";
+		 if(genero==2)
+			 edad=edad+catidadhijos;
+			if(edad>=60)
+				cout<<"se puede retirar";
+
+getch();
+}
+
