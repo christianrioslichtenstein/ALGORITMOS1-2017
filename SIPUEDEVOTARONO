@@ -1,0 +1,19 @@
+// SIUNCIUDADADOPUEDEVOTAR.cpp : Defines the entry point for the console application.
+//CHRISTIAN RIOS LICHTENSTEIN SI PUEDE VOTAR O NO//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main ()
+{     
+	int EDAD;
+
+         cout<< "digame su edad";
+		 cin>>EDAD;
+		 if(EDAD>=18)
+				
+	     cout<<"USTED SENOR PUEDE VOTAR";
+
+getch();
+}
